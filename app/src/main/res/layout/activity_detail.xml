@@ -96,4 +96,13 @@
         app:layout_constraintBottom_toTopOf="@+id/tab_layout"
         app:srcCompat="@drawable/ic_favorite" />
 
+    <ProgressBar
+        android:id="@+id/pg"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,7 +22,6 @@ class AdapterUser:
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         holder.bind(listUser[position])
         holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listUser[position]) }
-
     }
 
     @SuppressLint("NotifyDataSetChanged")
